@@ -17,7 +17,7 @@
  * Services
  * Hire
  * Portfolio
- * Testimonials
+ * projects
  * Blog
  * Contact
  * Footer
@@ -43,18 +43,6 @@ body {
   position: relative;
 }
 
-.cards {
-  margin: 0 auto;
-  width: 100px;
-  max-height: 200px;
-  height: 100px;
-  margin-bottom: 15px;
-}
-
-.cards img {
-width: 100%;
-height: 100%;
-}
 
 /* Typography */
 i.icon {
@@ -1205,58 +1193,55 @@ hr {
   }
 }
 
-/*----------- Testimonials -----------*/
-.testimonials-area .single-review {
+/*----------- projects -----------*/
+.projects-area .single-review {
   background-color: #fff;
   border: 1px solid rgba(214, 214, 214, 0.8);
   padding: 40px 30px;
   text-align: center;
 }
 
-.testimonials-area .single-review .review-icon {
+.projects-area .single-review .review-icon {
   display: inline-block;
   font-size: 50px;
   margin-bottom: 18px;
 }
 
-.testimonials-area .single-review .review-content {
+.projects-area .single-review .review-content {
   margin-bottom: 24px;
 }
 
-.testimonials-area .single-review .client-avatar {
+.projects-area .single-review .client-avatar {
   border-radius: 50%;
   display: inline-block;
   margin-bottom: 10px;
   width: 56px;
 }
 
-.testimonials-area .single-review .client-name {
+.projects-area .single-review .client-name {
   color: #3c3c3c;
   display: block;
   font-size: 14px;
   font-weight: 600;
 }
 
-.testimonials-area .owl-carousel .owl-dots {
+.projects-area .owl-carousel .owl-dots {
   margin-top: 24px !important;
 }
 
 @media (max-width: 767.98px) {
-  .testimonials-area .single-review .review-icon {
+  .projects-area .single-review .review-icon {
     font-size: 58px;
     margin-bottom: 22px;
   }
 
-  .testimonials-area .single-review .review-content {
+  .projects-area .single-review .review-content {
     margin-bottom: 28px;
   }
 }
 
 /*----------- Blog -----------*/
 
-.blog-area {
-  background-color: #f7f7f7;
-}
 .blog-area .single-post {
   background-color: transparent;
   border: none; 

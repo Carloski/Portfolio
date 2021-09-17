@@ -14,7 +14,7 @@
  * Sidebar
  * Home
  * Portfolio
- * Testimonials
+ * projects
  * Contact
  * Preloader
  */
@@ -593,9 +593,9 @@
       });
     }
 
-    /*----------- Testimonials -----------*/
+    /*----------- projects -----------*/
 
-    $('.testimonials-area .owl-carousel').owlCarousel({
+    $('.projects-area .owl-carousel').owlCarousel({
       items: 3,
       loop: true,
       margin: 30,
