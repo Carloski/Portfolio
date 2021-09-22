@@ -1,23 +1,8 @@
-/* My Skills Cards */
-
-/* .card {
-  max-width: 23rem;
+/* Colors */
+:root {
+ --main-color: #1ECBE1;
+ --secondary-color: #E1341E;
 }
-.card img {
-  width: 100%;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.card-img {
-  width: 150px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.sm-img {
-  width: 23%;
-} */
 
 
 
