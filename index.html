@@ -13,6 +13,9 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
+   <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -70,7 +73,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Carlos M. Tamayo</h1>
-      <p>I'm a <span class="typed" data-typed-items="Father, Developer, Freelancer, Designer"></span></p>
+      <p>I'm <span class="typed" data-typed-items="also known as Dvlprdad, a Father, a Developer, a Freelancer, a Designer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -95,16 +98,16 @@
             <img src="img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Front-End Web Developer.</h3>
-            <p class="fst-italic">
+            <h3>More about me...</h3>
+            <!-- <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore
               magna aliqua.
-            </p>
+            </p> -->
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>linkedin.com/in/carlosmt/</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>carlosmtamayo.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>305.213.3398</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Miami, FL. USA</span></li>
                 </ul>
@@ -119,12 +122,13 @@
                 </ul>
               </div>
             </div>
-            <!-- <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
-              ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
-              Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p> -->
+            <div class="row">
+              <div class="social-links d-flex ">
+                <a href="https://linkedin.com/in/carlosmt/" target="blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+                <a href="https://github.com/Carloski" target="blank"><i class="fab fa-github fa-2x mx-2"></i></a>
+                <a href="https://twitter.com/dvlprDad" target="blank"><i class="fab fa-twitter fa-2x mx-2"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -136,20 +140,23 @@
         <div class="section-title">
           <h2>My Skills</h2>
           <p>
-            I am a creative problem solver. I build web and mobile applications using HTML, CSS, JavaScript, and C#, ASP.net. .
-            I've highlited the key skills that I will bring to your project.
+            I am a creative problem solver who builds web and mobile applications using HTML, CSS, and JavaScript.
+            Below are some of the key skills that I can bring to your project.
           </p>
         </div>
   
+        <!-- Separate Front end into HTML and CSS then one for JS 
+        and another for Sass Change MVC to Web Development 
+      Remove Xamarin and Database Development-->
         <div class="row skills-contents">
           <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="single-service">
               <div class="cards">
-                <img src="/img/portfolio/sharp.png" alt="C#">
+                <img src="/img/portfolio/sharp.svg" alt="C#">
               </div>
               <h6 class="service-title fw-bold">C# Development</h6>
               <p class="service-description">
-                I like to use C# to build websites and mobile applications. You can see how I implement C# in my work by taking a look at  My projects section.
+                I've used C# to build websites and mobile applications. To see how I implement C# in my work, take a look at  My projects section.
               </p>
             </div>
           </div>
@@ -159,9 +166,9 @@
               <div class="cards">
                 <img src="/img/portfolio/mvc.png" alt="MVC">
               </div>
-              <h6 class="service-title fw-bold">Full Stack Web Development</h6>
+              <h6 class="service-title fw-bold">Web Development</h6>
               <p class="service-description">
-                I use ASP.net and MVC a proven design patterns and framework to build websites.
+                I've utilized the ASP.net and MVC design patterns and framework to build websites.
                 Click on my projects section to see examples.
               </p>
             </div>
@@ -170,7 +177,7 @@
           <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="single-service">
               <div class="cards">
-                <img src="/img/portfolio/front-end.png" alt="Front end">
+                <img src="/img/portfolio/frontEnd.svg" alt="Front end">
               </div>
               <h6 class="service-title fw-bold">Front End Developer</h6>
               <p class="service-description">
@@ -183,9 +190,9 @@
           <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="single-service mb-lg-0">
               <div class="cards">
-                <img src="/img/portfolio/xamarin.jpg" alt="Xamarin">
+                <img src="/img/portfolio/scss.png" alt="Xamarin">
               </div>
-              <h6 class="service-title fw-bold">Mobile Development</h6>
+              <h6 class="service-title fw-bold">CSS Compilers</h6>
               <p class="service-description">
                 Xamarin is a cross platform native mobile development platform that allows me to create
                 mobile applications that run on IOS and Andriod.
@@ -195,11 +202,10 @@
 
           <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="single-service mb-md-0">
-              <!-- <i class="icon service-icon ion-md-move"></i> -->
               <div class="cards-1">
-                <img src="/img/portfolio/sql.png" alt="SQL">
+                <img src="/img/portfolio/js.png" alt="SQL">
               </div>
-              <h6 class="service-title fw-bold">Database Development</h6>
+              <h6 class="service-title fw-bold">Interactive Apps</h6>
               <p class="service-description">
                 Database Development is a critical to most projects. I use SQL Development and I am well versed in everything
                 from queries to design.
@@ -209,11 +215,10 @@
 
           <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="single-service mb-0">
-              <!-- <i class="icon service-icon ion-ios-rocket"></i> -->
               <div class="cards">
-                <img src="/img/portfolio/bootstrap.png" alt="bootstrap">
+                <img src="/img/portfolio/strap.svg" alt="bootstrap">
               </div>
-              <h6 class="service-title fw-bold">Front End Design</h6>
+              <h6 class="service-title fw-bold">Front End FrameWorks</h6>
               <p class="service-description">
                 Look and feel are very important elements to any project. I use the Bootstrap framework to 
                 bring an attractive design to your web project.
@@ -225,16 +230,14 @@
       </div>
     </section><!-- End Skills Section -->
 
-
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume ">
             <div class="container">
       
               <div class="section-title">
                 <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                  consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-                  in iste officiis commodi quidem hic quas.</p>
+                <p>Organized and hard-working professional with experience building front-ends on responsive mobile and 
+                  web apps. Looking for a role where I can offer my Front-end web development skills and learn from other developers and </p>
               </div>
       
               <div class="row">
@@ -242,9 +245,11 @@
                   <h3 class="resume-title">Sumary</h3>
                   <div class="resume-item pb-0">
                     <h4>Carlos Tamayo</h4>
-                    <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
-                        developing user-centered digital/print marketing material from initial concept to final, polished
-                        deliverable.</em></p>
+                    <p><em>
+                        Innovative and deadline-driven Developer. Currently
+                        working on a Bachelors degree in Software Development and Coder Foundry bootcamp graduate experienced 
+                        with HTML, CSS, JavaScript, and C#. 
+                      </em></p>
                     <ul>
                       <li>Miami, FL</li>
                       <li>(305) 213-3398</li>
@@ -254,19 +259,33 @@
       
                   <h3 class="resume-title">Education</h3>
                   <div class="resume-item">
-                    <h4>Bachelors in Software Development</h4>
+                    <h4>BS in Information Technology</h4>
+                    <h5>Concentration in Software Development</h5>
                     <h5>2018 - 2022</h5>
                     <p><em>Southern New Hamphire University</em></p>
-                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui
-                      ut dignissimos deleniti nerada porti sand markend</p>
+                    <p>
+                      <span class="fw-bold">Relevant courses:</span> 
+                      Computer Science Role in Industry, Database Design,
+                      Software Development with C#.NET, Software Development with C++, Web
+                      Design
+                    </p>
                   </div>
                   <div class="resume-item">
-                    <h4>Full Stack Web Development</h4>
+                    <h4>Coding Bootcamp</h4>
                     <h5>2021</h5>
                     <p><em>Coder Foundry</em></p>
-                    <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
-                      unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart
-                      dila</p>
+                    <p>
+                      Full-stack web development program.
+                      Practiced the most in-demand technologies and skills focusing on practical 
+                      applications that are ready for the web right from the start.
+                    </p>
+                    <p>
+                      Built Projects with C#, JavaScript, HTML, and CSS. Used the .NET 5 framework 
+                      as well as Bootstrap to create modern, responsive web apps. Also used SQL to 
+                      work with relational database.
+                    </p>
+                    
+
                   </div>
                   <div class="resume-item">
                     <h4>Front-End Web UI Framework &amp; Tools</h4>
@@ -280,29 +299,41 @@
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                   <h3 class="resume-title">Professional Experience</h3>
                   <div class="resume-item">
-                    <h4>Senior graphic design specialist</h4>
+                    <h4>REO Account Manager</h4>
                     <h5>2019 - Present</h5>
-                    <p><em>Experion, New York, NY </em></p>
+                    <p><em>Mortgage Contracting Services </em></p>
                     <ul>
-                      <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                        communication materials</li>
-                      <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                        project. </li>
-                      <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                        design</li>
-                      <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                      <li>
+                        Collaborated with a team of 5 members in the operations team and to
+                        develop key operational strategies to meet our client’s needs
+                      </li>
+                      <li>
+                        Quickly developed and adapted new operations procedures after major
+                        increases in work volume to help maintain projects on schedule and
+                        meet client’s SLA.
+                      </li>
+                      <li>
+                        Review regular site inspection to ensure property compliance.
+                      </li>
                     </ul>
                   </div>
                   <div class="resume-item">
-                    <h4>Graphic design specialist</h4>
-                    <h5>2017 - 2018</h5>
-                    <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                    <h4>Account Manager</h4>
+                    <h5>2014 - 2019</h5>
+                    <p><em>M&M Mortgage Services</em></p>
                     <ul>
-                      <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                        advertisements).</li>
-                      <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                      <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                      <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                      <li>
+                        Managed Key Portfolio with a value of over 1 billion dollars.
+                      </li>
+                      <li>
+                        Communicated daily with Client teams and C-level executives and
+                        provided updates on pending projects.
+                      </li>
+                      <li>
+                        Represented M&M on a national level as an Account Manager handling client 
+                        account for Freddie Mac and Bayview loan serving.  
+                      </li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -310,7 +341,6 @@
       
             </div>
     </section><!-- End Resume Section -->
-
     
     <!-- ======= Call to Action Section ======= -->
     <section id="services" class="services">
@@ -457,106 +487,13 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Feel free to connect with me anytime.</p>
         </div>
 
         <div class="row" data-aos="fade-in">
