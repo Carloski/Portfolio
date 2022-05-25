@@ -1,49 +1,10 @@
 /* Colors */
 :root {
- --main-color: #1ECBE1;
- --secondary-color: #E1341E;
+  --main-color: #1ecbe1;
+  --secondary-color: #e1341e;
 }
-
-
 
 /* test */
-.cards-1 {
-  margin: 0 auto;
-  width: 100px;
-  max-height: 100px;
-  height: 100px;
-  margin-bottom: 15px;
-}
-
-.cards-1 img {
-  width: 100%;
-  height: 100%;
-  }
-
-.cards {
-  margin: 0 auto;
-  width: 150px;
-  max-height: 100px;
-  height: 100px;
-  margin-bottom: 15px;
-}
-
-.cards img {
-width: 100%;
-height: 100%;
-}
-
-.single-service {
-  background-color: rgb(255, 255, 255);
-  margin-bottom: 30px;
-  text-align: center;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgba(214, 214, 214, 0.8);
-  border-image: initial;
-  padding: 38px 24px;
-  transition: all 0.15s ease-in-out 0s;
-}
 
 .btn-info {
   border: none !important;
