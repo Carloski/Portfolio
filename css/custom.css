@@ -1,7 +1,9 @@
 /* Colors */
 :root {
-  --main-color: #1ecbe1;
+  --main-color: #3599bf;
   --secondary-color: #e1341e;
+  --dark-color: #1c2e47;
+  --light-color: #fefefe;
 }
 
 /* test */
@@ -13,6 +15,12 @@
 
 .btn a {
   color: #fff;
+}
+
+.card-img,
+.card-img-top {
+  height: 50%;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
