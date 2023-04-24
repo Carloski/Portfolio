@@ -17,11 +17,19 @@
   color: #fff;
 }
 
-.card-img,
+.card {
+  min-height: 90%;
+}
+
+.card-body {
+  margin-bottom: 0.5rem;
+}
+
+/* .card-img,
 .card-img-top {
   height: 50%;
   width: 100%;
-}
+} */
 
 /*--------------------------------------------------------------
 # Services
